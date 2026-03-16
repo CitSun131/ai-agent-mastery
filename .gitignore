@@ -1,0 +1,52 @@
+# ===== API Keys & Secrets =====
+.env
+config/.env
+config/.env.example
+*.key
+*.pem
+*.secret
+
+# ===== Solutions (instructor only) =====
+week-01-fundamentals/solutions/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.Python
+venv/
+env/
+.venv/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Phoenix Traces =====
+traces/*.json
+traces/*.parquet
+!traces/.gitkeep
+
+# ===== Docker =====
+.docker/
+
+# ===== Misc =====
+*.log
+*.tmp
+*.bak
+node_modules/
